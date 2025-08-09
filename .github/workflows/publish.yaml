@@ -9,7 +9,7 @@ jobs:
     uses: stone-home/Action-Stone-DevOps/.github/workflows/poetry-publish.yaml@trunk
     with:
       python-version: "3.11"
-      poetry-version: "1.8.5"
+      poetry-version: "2.0.1"
       version-id: ${{ github.event.release.name }}
     secrets:
       onepass_token: ${{ secrets.ORG_OP_ACCOUNT_TOKEN }}

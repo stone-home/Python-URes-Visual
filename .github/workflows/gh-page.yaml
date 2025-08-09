@@ -9,5 +9,7 @@ jobs:
     uses: stone-home/Action-Stone-DevOps/.github/workflows/gh_page_publish.yaml@trunk # Action to create release blog post
     with:
       mkdocs-page: true
+      python-version: "3.11"
+      poetry-version: "2.0.1"
     secrets:
       onepass_token: ${{ secrets.ORG_OP_ACCOUNT_TOKEN }} # 1Password service account token
