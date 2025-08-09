@@ -1,12 +1,52 @@
 [project]
 name = "ures-visual"
-version = "0.1.0"
+version = "1.0.0"
 description = "A comprehensive, multi-backend visualization library designed for scientific research, data analysis, and machine learning, built on Polars DataFrames with matplotlib/seaborn, plotly, and HoloViews backends."
 authors = [
     {name = "stone",email = "github@stone-bo.com"}
 ]
 license = {text = "MIT"}
 readme = "README.md"
+repository = "https://github.com/stone-home/Python-URes-Visual"
+keywords = [
+    "utilization",
+    "Research Tool",
+    "Python",
+    "visualization",
+    "data analysis",
+    "machine learning",
+    "data science",
+]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+    "Topic :: Scientific/Engineering :: Visualization",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+]
+packages = [
+    { include = "ures_visual"},
+]
+exclude = [
+    "tests",
+    "docs",
+    "examples",
+    "dist",
+    "build",
+    "ures.egg-info",
+    ".git",
+    ".gitignore",
+    ".github",
+    ".pre-commit-config.yaml",
+    "commitlint.config.js",
+    "run_ut.sh",
+    ".env"
+]
 requires-python = ">=3.11"
 dependencies = [
     "polars (>=1.32.2,<2.0.0)",
