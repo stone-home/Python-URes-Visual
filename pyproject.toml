@@ -1,6 +1,6 @@
 [project]
 name = "ures-visual"
-version = "1.0.0"
+version = "1.0.2"
 description = "A comprehensive, multi-backend visualization library designed for scientific research, data analysis, and machine learning, built on Polars DataFrames with matplotlib/seaborn, plotly, and HoloViews backends."
 authors = [
     {name = "stone",email = "github@stone-bo.com"}
